@@ -137,6 +137,9 @@ function baitap8() {
     } else if (soNguyen[i] % 3 === 0) {
       console.log(-1);
       soNguyenToDau.innerHTML = "-1";
+    } else if (soNguyen[i] % 5 === 0) {
+      console.log(-1);
+      soNguyenToDau.innerHTML = "-1";
     } else {
       console.log(soNguyen[i] + "Là số nguyên tố");
       soNguyenToDau.innerHTML = "Số nguyên tố đầu tiên:" + soNguyen[i];
